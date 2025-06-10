@@ -146,174 +146,174 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   
   // Datos de los productos
-  const pizzas = [
+ const pizzas = [
     {
       id: 1,
       name: 'Pizza Muzza',
       price: 15000,
       ingredients: 'Salsa de tomate, mozzarella',
-      image: 'https://cdn.pixabay.com/photo/2016/11/29/13/02/cheese-1869708_1280.jpg'
+      image: 'img/muzza.jpeg'
     },
     {
       id: 2,
       name: 'Pizza Muzza + dos faina',
       price: 16000,
       ingredients: 'Salsa de tomate, mozzarella, dos faina',
-      image: 'https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg'
+      image: 'img/muzza-faina.jpeg'
     },
     {
       id: 3,
       name: 'Pizza Jamon',
       price: 17000,
       ingredients: 'Salsa de tomate, mozzarella, jamón',
-      image: 'https://cdn.pixabay.com/photo/2016/03/05/21/45/pizza-1239077_1280.jpg'
+      image: 'img/jamon.jpeg'
     },
     {
       id: 4,
       name: 'Pizza Jamon y morrones',
       price: 19000,
       ingredients: 'Salsa de tomate, mozzarella, jamón, morrones',
-      image: 'https://cdn.pixabay.com/photo/2016/11/29/13/02/cheese-1869708_1280.jpg'
+      image: 'img/jamon-morron.jpeg'
     },
     {
       id: 5,
       name: 'Pizza Ananá',
       price: 19000,
       ingredients: 'Mozzarella, jamón, ananá. azucar negra',
-      image: 'https://cdn.pixabay.com/photo/2017/02/15/10/57/pizza-2068272_1280.jpg'
+      image: 'img/anana.jpeg'
     },
     {
       id: 6,
       name: 'Pizza Napolitana',
       price: 17000,
       ingredients: 'Salsa de tomate, mozzarella, tomates en rodajas, ajo picado, aceite de oliva ',
-      image: 'https://cdn.pixabay.com/photo/2020/05/17/04/22/pizza-5179939_1280.jpg'
+      image: 'img/napolitana.jpeg'
     },
     {
       id: 7,
       name: 'Pizza Napolitana con jamón',
       price: 18000,
       ingredients: 'Salsa de tomate, mozzarella, jamón, tomates en rodajas, ajo picado, aceite de oliva',
-      image: 'https://cdn.pixabay.com/photo/2016/03/05/21/46/american-1239081_1280.jpg'
+      image: 'img/napolitana-jamon.jpeg'
     },
     {
       id: 8,
       name: 'Pizza Napolitana especial',
       price: 19000,
       ingredients: 'Salsa de tomate, mozzarella, jamón, huevo picado tmates en rodajas, ajo picado, aceite de oliva',
-      image: 'https://cdn.pixabay.com/photo/2015/04/28/21/20/pizza-744405_1280.jpg'
+      image: 'img/napolitana-especial.jpeg'
     },
     {
       id: 9,
       name: 'Pizza Palmitos',
       price: 19000,
       ingredients: 'Salsa de tomate, mozzarella, palmitos, salsa golf',
-      image: 'https://cdn.pixabay.com/photo/2020/06/08/16/49/pizza-5275191_1280.jpg'
+      image: 'img/palmitos.jpeg'
     },
     {
       id: 10,
       name: 'Pizza Fugazza',
       price: 8000,
       ingredients: 'Masa con cebolla, condimentos',
-      image: 'https://cdn.pixabay.com/photo/2019/09/13/21/24/pizza-4475032_1280.jpg'
+      image: 'img/fugazza.jpeg'
     },
     {
       id: 11,
       name: 'Pizza Fugazzetta',
       price: 22000,
       ingredients: 'Masa rellena con muzzarella, jamón, superficie de cebolla',
-      image: 'https://cdn.pixabay.com/photo/2020/06/08/16/49/pizza-5275191_1280.jpg'
+      image: 'img/fugazzeta.jpeg'
     },
     {
       id: 12,
       name: 'Pizza Fugazzettta super',
       price: 23000,
       ingredients: 'Masa rellena con muzzarella, jamón, tomates en rodajas, superficie de cebolla, provolone rallado',
-      image: 'https://cdn.pixabay.com/photo/2016/03/05/21/45/pizza-1239077_1280.jpg'
+      image: 'img/fugazzeta.jpeg'
     },
     {
       id: 13,
       name: 'Pizza de Palmitos con jamón',
       price: 21000,
       ingredients: 'Salsa de tomate, mozzarella, jamón, palmitos, salsa golf',
-      image: 'https://cdn.pixabay.com/photo/2020/05/17/04/22/pizza-5179939_1280.jpg'
+      image: 'img/palmitos-jamon.jpeg'
     },
     {
       id: 14,
       name: 'Pizza Primavera',
       price: 18000,
       ingredients: 'Dos porciones de muzzarella, dos porciones de napolitan, dos porciones de jamón y morrones, dos porciones de americana',
-      image: 'https://cdn.pixabay.com/photo/2014/07/08/12/34/pizza-386717_1280.jpg'
+      image: 'img/cuatro-estaciones.jpeg'
     },
     {
       id: 15,
       name: 'Pizza Americana',
       price: 15000,
       ingredients: 'Salsa de tomate, mozzarella, cebolla',
-      image: 'https://cdn.pixabay.com/photo/2017/02/15/10/57/pizza-2068272_1280.jpg'
+      image: 'img/americana.jpeg'
     },
     {
       id: 16,
       name: 'Pizza Calabresa',
       price: 19000,
       ingredients: 'Salsa de tomate, mozzarella, longaniza en rodajas',
-      image: 'https://cdn.pixabay.com/photo/2015/04/28/21/20/pizza-744405_1280.jpg'
+      image: 'img/calabresa.jpeg'
     },
     {
       id: 17,
       name: 'Pizza Roquefort',
       price: 19000,
       ingredients: 'Salsa de tomate, mozzarella, roquefort',
-      image: 'https://cdn.pixabay.com/photo/2020/05/17/04/22/pizza-5179939_1280.jpg'
+      image: 'img/roquefort.jpeg'
     },
     {
       id: 18,
       name: 'Pizza Provolone',
       price: 20000,
       ingredients: 'Salsa de tomate, mozzarella, provolone en rodajas',
-      image: 'https://cdn.pixabay.com/photo/2016/03/05/21/46/american-1239081_1280.jpg'
+      image: 'img/provolone.jpeg'
     },
     {
       id: 19,
       name: 'Pizza Cuatro quesos',
       price: 22000,
       ingredients: 'Salsa de tomate, mozzarella, roquefort, provolone',
-      image: 'https://cdn.pixabay.com/photo/2016/11/29/13/02/cheese-1869708_1280.jpg'
+      image: 'img/cuatro-quesos.jpeg'
     },
     {
       id: 20,
       name: 'Pizza Cancha',
       price: 8000,
       ingredients: 'Salsa de tomate, ajo picado, aceite de oliva',
-      image: 'https://cdn.pixabay.com/photo/2014/07/08/12/34/pizza-386717_1280.jpg'
+      image: 'img/cancha.jpeg'
     },
     {
       id: 21,
       name: 'Pizza Especial "Bonita"',
       price: 23000,
       ingredients: 'Salsa de tomate, mozzarella, jamón, huevo duro, morrón, palmitos',
-      image: 'https://cdn.pixabay.com/photo/2019/09/13/21/24/pizza-4475032_1280.jpg'
+      image: 'img/bonita.jpeg'
     },
     {
       id: 22,
       name: 'Pizza Especial "JU JU"',
       price: 20000,
       ingredients: 'Salsa de tomate, mozzarella, jamón, huevo duro, morrón',
-      image: 'https://cdn.pixabay.com/photo/2020/06/08/16/49/pizza-5275191_1280.jpg'
+      image: 'img/juju.jpeg'
     },
     {
       id: 23,
       name: 'Super Calzon',
       price: 25000,
       ingredients: 'Mozzarella, tomates en rodajas, jamón, palmitos, huevo duro, morrón',
-      image: 'https://cdn.pixabay.com/photo/2016/03/05/21/46/american-1239081_1280.jpg'
+      image: 'img/calzon.jpeg'
     },
     {
       id: 24,
       name: 'Pizza Cuatro estaciones',
       price: 24000,
       ingredients: 'Dos porciones de napolitana especial, dos porciones de jamón y morrón, dos porciones de roquefort, dos porciones de palmitos',
-      image: 'https://cdn.pixabay.com/photo/2015/04/28/21/20/pizza-744405_1280.jpg'
+      image: 'img/cuatro-estaciones.jpeg'
     },
   ];
   
@@ -322,31 +322,25 @@ document.addEventListener('DOMContentLoaded', function() {
       id: 101,
       name: 'Empanada de Carne cortada a cuchillo',
       price: 2000,
-      image: 'https://cdn.pixabay.com/photo/2019/11/09/17/02/empanadas-4614035_1280.jpg'
+      image: 'img/empanada-carne.jpeg'
     },
     {
       id: 102,
       name: 'Empanada de Jamón y Queso',
       price: 2000,
-      image: 'https://cdn.pixabay.com/photo/2019/12/12/21/27/empanadas-4691402_1280.jpg'
+      image: 'img/empanada-jyq.jpeg'
     },
     {
       id: 103,
       name: 'Empanada de Pollo',
       price: 2000,
-      image: 'https://cdn.pixabay.com/photo/2019/11/09/17/02/empanadas-4614035_1280.jpg'
+      image: 'img/empanada-pollo.jpeg'
     },
     {
       id: 104,
       name: 'Empanada de Tomate, muzzarella y albahaca',
       price: 2000,
-      image: 'https://cdn.pixabay.com/photo/2019/12/12/21/27/empanadas-4691402_1280.jpg'
-    },
-    {
-      id: 105,
-      name: 'Empanada de Faina',
-      price: 2000,
-      image: 'https://cdn.pixabay.com/photo/2019/11/09/17/02/empanadas-4614035_1280.jpg'
+      image: 'img/empanada-tomate.jpeg'
     },
   ];
   
@@ -361,7 +355,7 @@ document.addEventListener('DOMContentLoaded', function() {
       id: 202,
       name: 'Levite pomelo 1,5L',
       price: 3500,
-      image: 'img/levite_pomelo1,5.webp'
+      image: 'img/levite_pomelo1,5l.jpg'
     },
     {
       id: 203,
@@ -373,31 +367,31 @@ document.addEventListener('DOMContentLoaded', function() {
       id: 204,
       name: 'Sprite 500ml',
       price: 2300,
-      image: 'https://cdn.pixabay.com/photo/2018/01/31/07/34/drink-3120801_1280.jpg'
+      image: 'img/sprite500ml.jpeg'
     },
     {
       id: 205,
       name: 'Coca-Cola 380ml',
       price: 1200,
-      image: 'https://cdn.pixabay.com/photo/2018/06/28/17/40/beer-3504292_1280.jpg'
+      image: 'img/coca-cola380ml.jpg'
     },
     {
       id: 206,
       name: 'Sprite 380ml',
       price: 1150,
-      image: 'https://cdn.pixabay.com/photo/2019/06/08/14/02/beer-4260815_1280.jpg'
+      image: 'img/sprite380ml.jpg'
     },
     {
       id: 207,
       name: 'Agua mineral 500ml',
       price: 2000,
-      image: 'https://cdn.pixabay.com/photo/2017/06/24/23/41/beer-2439237_1280.jpg'
+      image: 'img/agua_mineral500ml.jpg'
     },
     {
       id: 208,
       name: 'Aquarius manzana 500ml',
       price: 2500,
-      image: 'https://cdn.pixabay.com/photo/2016/10/22/20/34/wine-1761613_1280.jpg'
+      image: 'img/aquarius_manzana500ml.jpg'
     },
     {
       id: 209,
@@ -409,31 +403,31 @@ document.addEventListener('DOMContentLoaded', function() {
       id: 210,
       name: 'Amstel 710ml',
       price: 3600,
-      image: 'img/amstel710ml.webp'
+      image: 'img/amstel710ml.jpg'
     },
     {
       id: 211,
       name: 'Schneider 710ml',
       price: 3700,
-      image: 'img/heineken710ml.webp'
+      image: 'img/heineken710ml.jpg'
     },
     {
       id: 212,
       name: 'Heineken 380ml',
       price: 2500,
-      image: 'img/eine'
+      image: 'img/heineken380ml.jpg'
     },
     {
       id: 213,
       name: 'Imperial negra 500ml',
       price: 2800,
-      image: 'img/imperial500ml.webp'
+      image: 'img/imperial500ml.jpg'
     },
     {
       id: 214,
       name: 'Heineken sin alcohol 500ml',
       price: 2500,
-      image: 'img/heineken_sin_alcohol500ml.webp'
+      image: 'img/heineken_sin_alcohol500ml.jpg'
     },
   ];
   
